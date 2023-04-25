@@ -11,7 +11,7 @@ public class Registration {
 
 	public static void main(String[] args) throws InterruptedException {
 
-
+System.out.println("this is the selenium change");
 		System.setProperty("webdriver.chrome.driver", "C:\\softwaretesting\\Drivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://qa-practice.netlify.app/");
