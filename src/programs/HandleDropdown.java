@@ -29,6 +29,7 @@ public class HandleDropdown {
 		select.selectByVisibleText("India");
 		Thread.sleep(4000);
 		select.selectByVisibleText("Angola");
+		driver.close();
 		//Thread.sleep(4000);
 		//driver.findElement(By.id("multi-level-dropdown-btn")).click();
 		//Thread.sleep(4000);
