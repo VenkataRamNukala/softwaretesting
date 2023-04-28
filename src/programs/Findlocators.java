@@ -10,9 +10,11 @@ public class Findlocators {
 
 	public static void main(String[] args) throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver", "C:\\softwaretesting\\Drivers\\chromedriver.exe");
+		
 		WebDriver driver = new ChromeDriver();
+		//driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		driver.get("https://qa-practice.netlify.app/");
-		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
+		
 		driver.manage().window().maximize();
 		//driver.close();
 		Thread.sleep(3000);
